@@ -60,9 +60,9 @@ def find_modifier_option_by_key(data, key, value):
 def main():
     # file_path = "staging_products.json"  # Adjust the file path as needed
 
-    prodData = load_json_file("production_merged.json")
-    stagData = load_json_file("sandbox_merged.json")
-    sanityDataset = load_ndjson_file("backup.ndjson")
+    prodData = load_json_file("data/production_merged.json")
+    stagData = load_json_file("data/sandbox_merged.json")
+    sanityDataset = load_ndjson_file("data/backup.ndjson")
 
     # if prodData:
     #     print(prodData[0]['id'])
